@@ -32,7 +32,7 @@ public class NettyServer {
                                     ChannelPipeline pipeline = socketChannel.pipeline();
                                     pipeline.addLast(new StringDecoder());
                                     pipeline.addLast(new StringEncoder());
-                                    pipeline.addLast(null);//自己业务处理器
+                                    pipeline.addLast(new NettyServerHandler());//自己业务处理器
                                 }
                             }
                     );
