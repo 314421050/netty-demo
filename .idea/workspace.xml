@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8a81c5-4bae-48da-827d-f2f8e3888544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/groupchat/GroupChatClinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/groupchat/GroupChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/simple/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/simple/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/zerocopy/NewIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/zerocopy/NewIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/buf/NettyByteBuf01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/buf/NettyByteBuf02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/groupchat/GroupChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/http/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/http/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/http/TestServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/simple/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/simple/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/simple/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/websocket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/simple/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/netty/simple/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/nio/simple/NettyServerHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -64,14 +80,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1594723200115">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1594800916868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594723200115" />
-    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1594692536491">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594800916868" />
+    <state x="558" y="93" key="CommitChangelistDialog2" timestamp="1594798330544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594692536491" />
+    <state x="558" y="93" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594798330544" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594346038417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -92,5 +108,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594692993068" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594781690861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594781690861" />
   </component>
 </project>

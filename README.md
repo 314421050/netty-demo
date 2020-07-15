@@ -1,1 +1,11 @@
 "# netty-demo" 
+Netty可以选择不同的多路复用技术
+NioEventLoop
+NioEventLoop底层会根据系统选择select或者epoll，如果是Windows系统，则底层使用WindowsSelectorProvider（select）实现多路复用，
+如果是linux，则使用epoll
+
+Netty随记--ChannelHandlerContext与Channel的writeAndFlush的区别
+1. ChannelHandlerContext的writeAndFlush方法会将数据写到ChannelPipeline中当前ChannelHandler的下一个ChannelHandler开始处理。
+2. Channel的writeAndFlush方法会将数据写到ChannelPipeline中最后一个ChannelHandler然后数据从尾部开始向头部方向流动会经过所有的ChannelHandler,
+ ChannelPipeline中的所有ChannelHandler都可以处理数据。
+
